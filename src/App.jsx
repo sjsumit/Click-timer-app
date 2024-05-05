@@ -53,6 +53,7 @@ const KeyCounter = () => {
         });
       }
     };
+    
 
     document.addEventListener('click', handleKeyDown);
 
