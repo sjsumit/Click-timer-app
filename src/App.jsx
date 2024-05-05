@@ -46,7 +46,7 @@ const KeyCounter = () => {
         setKeyCount((prevCount) => {
           const newCount = prevCount + 1;
           if (newCount === maxCount) {
-            const audio = new Audio('/sound.mp3');
+            const audio = new Audio('/Sound.mp3');
             audio.play();
           }
           return newCount;
